@@ -10,8 +10,10 @@ Asignar núcleos de CPU específicos:
 ```
 
 **¿Como saber el numero de procesadores virtuales que tiene una máquina?**
-## COMPLETAR
-
+Se puede observar el numero de procesadores virutales o nucleros ejecutando el siguiente comando en el cmd 
+```
+wmic cpu get NumberOfCores,NumberOfLogicalProcessors
+```
 ## Ejemplos
 _Puedes copiar y ejecutar directamente cada uno de los comandos_
 

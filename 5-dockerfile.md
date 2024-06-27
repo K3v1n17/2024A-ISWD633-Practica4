@@ -57,7 +57,8 @@ docker build -t mycentos:1.0 .
 ```
 
 **¿Cuántos pasos se han ejecutado?**
-# RESPONDER 
+
+Se han ejecutado 6 pasos 
 
 ### Inspeccionar la imagen creada
 # COMPLETAR CON UNA CAPTURA

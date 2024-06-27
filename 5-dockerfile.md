@@ -61,7 +61,8 @@ docker build -t mycentos:1.0 .
 Se han ejecutado 6 pasos 
 
 ### Inspeccionar la imagen creada
-# COMPLETAR CON UNA CAPTURA
+
+![Imagen](imagenes/centos.png)
 
 **Modificar el archivo index.html para incluir su nombre**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
@@ -76,14 +77,17 @@ Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso
 
 ### Crear un contenedor a partir de las imagen creada, mapear todos los puertos
 ```
+docker run -d -p 8080:80 --name mi_centos_cont mycentos:1.0
 
 ```
 
 ### ¿Con que puerto host se está realizando el mapeo?
-# COMPLETAR CON LA RESPUESTA
 
+   8080:80
+   
 **¿Qué es una imagen huérfana?**
-# COMPLETAR CON LA RESPUESTA
+
+Una imagen huérfana es una imagen que ya no tiene ningún contenedor asociado a ella. 
 
 ### Identificar imágenes huérfanas
 ```

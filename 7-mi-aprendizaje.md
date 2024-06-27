@@ -1,3 +1,5 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+Después de realizar la práctica, he logrado avances significativos en la gestión de recursos y la optimización de contenedores Docker. Inicialmente, tenía una comprensión básica sobre la importancia de limitar recursos en contenedores para evitar la sobrecarga del sistema, pero no sabía cómo implementarlo. Ahora, sé cómo configurar límites específicos en CPU y memoria usando flags como --cpus y --memory, y cómo monitorizar y ajustar estos límites en tiempo real para optimizar el rendimiento de las aplicaciones. Además, aprendí a utilizar la instrucción HEALTHCHECK para monitorear automáticamente el estado de los contenedores, mejorando la resiliencia y disponibilidad de las aplicaciones. También adquirí una comprensión más profunda sobre la optimización de Dockerfiles y la configuración de políticas de reinicio para asegurar la estabilidad y eficiencia de los servicios desplegados.
+
+Error encontrado:
+
+Durante la práctica, tuve un inconveniente al copiar una carpeta web que contenía un archivo HTML, ya que este no se copiaba correctamente. Resolví el problema cambiando la instrucción en el Dockerfile para copiar directamente el archivo index.html
